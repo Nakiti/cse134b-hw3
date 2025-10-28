@@ -8,12 +8,12 @@
     <body>
         <header>
             <nav>
-                <a href="index.html"><span>Nikhil Akiti</span></a>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="experiences.html">Experience</a></li>
-                    <li><a href="interests.html">Interests</a></li>
+                <a href="index.html" id="header-title">Nikhil Akiti</a>
+                <ul class="header-link-container">
+                    <li class="header-link"><a href="index.html">Home</a></li>
+                    <li class="header-link"><a href="projects.html">Projects</a></li>
+                    <li class="header-link"><a href="experiences.html">Experience</a></li>
+                    <li class="header-link"><a href="interests.html">Interests</a></li>
                 </ul>
             </nav>
         </header>
@@ -43,24 +43,6 @@
                         </ul>
                     </article>
                 </section>
-            </section>
-
-            <section>
-                <h2>Share an Interest</h2>
-                <form action="/submit-hobby" method="post">
-                    <fieldset>
-                        <legend>What's your favorite hobby?</legend>
-                        <div>
-                            <label>Hobby:</label>
-                            <input type="text" id="hobby_name" name="hobby_name">
-                        </div>
-                        <div>
-                            <label>Why do you enjoy it?:</label>
-                            <textarea name="hobby_description"></textarea>
-                        </div>
-                        <button type="submit">Share</button>
-                    </fieldset>
-                </form>
             </section>
         </main>
         <footer>
