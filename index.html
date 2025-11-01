@@ -20,109 +20,68 @@
         </header>
 
         <main>
-            <section>
-                <div>
-                    <h1>Hi, I'm Nikhil Akiti</h1>
-                    <p>A passionate and detail-oriented software developer focused on building high impact applications</p>
-                    <div class="quick-links-container">
-                        <a class="quick-link" href="projects.html">View My Projects</a>
-                        <a class="quick-link" href="resume.pdf">My Resume</a>
+            <section class="hero-section">
+                <div class="hero-container">
+                    <div class="hero-main-content">
+                        <div class="hero-name-stack">
+                            <p class="hero-intro">Hi, I'm</p>
+                            <h1 class="hero-name">
+                                <span class="hero-name-first">Nikhil</span>
+                                <span class="hero-name-last">Akiti</span>
+                            </h1>
+                        </div>
+                        <div class="hero-actions">
+                            <a class="hero-button hero-button-primary" href="projects.html">View My Projects</a>
+                            <a class="hero-button hero-button-secondary" href="resume.pdf">My Resume</a>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <section>
-                <div>
-                    <h2>What I'm up to Right Now:</h2>
-                    <p>I currently work as a Software Engineering Intern with the UCSD IT Services team, where I work on a diverse set of projects. Currently, I work in a devops role where I help manage and upgrade some of the school's platforms using Docker, Kubernetes, and Helm. In addition to this, I also work with API integration as well as scripting to automate processes.</p>
+                    <p class="hero-description">
+                        A passionate and detail-oriented software developer focused on building high-impact applications.
+                    </p>
                 </div>
             </section>
             <section id="featured-projects">
-                <div>
-                    <h2>Featured Projects</h2>
-                    <div class="project-card-container">
-                        <project-card class="project-card-split">
+                <h2>Featured Projects</h2>
+                <div class="project-card-container">
+
+                    <a href="projects.html" class="project-card-link">
+                        <article class="project-card">
                             <picture class="project-card-image">
                                 <source media="(min-width: 650px)" srcset="https://placehold.co/800x400/">
                                 <img src="https://placehold.co/600x400/" alt="Screenshot of Project One">
                             </picture>
-                            <div class="project-card-content">
+                            
+                            <div class="project-card-title-bar">
                                 <h3>Project Title</h3>
-                                <p>Project Description</p>
-                                <ol>
-                                    <li>Feature One</li>
-                                    <li>Feature Two</li>
-                                </ol>
-                                <a href="link">Learn More &rarr;</a>
                             </div>
-                        </project-card>
-
-                        <project-card class="project-card-split">
+                        </article>
+                    </a>
+                    <a href="projects.html" class="project-card-link">
+                        <article class="project-card">
                             <picture class="project-card-image">
                                 <source media="(min-width: 650px)" srcset="https://placehold.co/800x400/">
                                 <img src="https://placehold.co/600x400/" alt="Screenshot of Project One">
                             </picture>
-                            <div class="project-card-content">
+                            
+                            <div class="project-card-title-bar">
                                 <h3>Project Title</h3>
-                                <p>Project Description</p>
-                                <ol>
-                                    <li>Feature One</li>
-                                    <li>Feature Two</li>
-                                </ol>
-                                <a href="link">Learn More &rarr;</a>
                             </div>
-                        </project-card>
-                    </div>
+                        </article>
+                    </a>
+                    <a href="projects.html" class="project-card-link">
+                        <article class="project-card">
+                            <picture class="project-card-image">
+                                <source media="(min-width: 650px)" srcset="https://placehold.co/800x400/">
+                                <img src="https://placehold.co/600x400/" alt="Screenshot of Project One">
+                            </picture>
+                            
+                            <div class="project-card-title-bar">
+                                <h3>Project Title</h3>
+                            </div>
+                        </article>
+                    </a>
                 </div>
             </section>
-            <section id="technologies">
-                <div class="tech-content-wrapper">
-                    <h2>Language Proficiency</h2>
-
-                    <div class="progress-bar-container">
-                        
-                        <span class="progress-item">
-                            <label for="python-progress" class="progress-label">Python:</label>
-                            <progress id="python-progress" class="progress-bar" value="90" max="100"> 90% </progress>
-                        </span>
-
-                        <span class="progress-item">
-                            <label for="js-progress" class="progress-label">JavaScript:</label>
-                            <progress id="js-progress" class="progress-bar" value="85" max="100"> 85% </progress>
-                        </span>
-
-                        <span class="progress-item">
-                            <label for="cpp-progress" class="progress-label">C++:</label>
-                            <progress id="cpp-progress" class="progress-bar" value="75" max="100"> 75% </progress>
-                        </span>
-
-                        <span class="progress-item">
-                            <label for="html-progress" class="progress-label">HTML & CSS:</label>
-                            <progress id="html-progress" class="progress-bar" value="95" max="100"> 95% </progress>
-                        </span>
-
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div>
-                    <h2>Contact Me</h2>
-                        <form action="/submit-form" method="post" >
-                            <fieldset>
-                                <legend>Contact Information</legend>
-                                <span class="form-group">
-                                    <label for="name" class="form-label">Name:</label>
-                                    <input type="text" id="name" name="user_name" class="form-input">
-                                </span>
-                                <span class="form-group">
-                                    <label for="message" class="form-label">Message:</label>
-                                    <textarea id="message" name="user_message" class="form-input"></textarea>
-                                </span>
-                                <button type="submit" class="form-submit-btn">Send</button>
-                            </fieldset>
-                        </form>
-                </div>
-            </section> 
-
         </main>
 
         <footer>
